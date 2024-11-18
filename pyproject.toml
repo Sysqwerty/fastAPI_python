@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-python"
+version = "0.1.0"
+description = ""
+authors = ["Oleksii Dmytriiev <sysqwerty1984@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["standard"], version = "^0.115.5"}
+sqlalchemy = "^2.0.36"
+psycopg2 = "^2.9.10"
+python-multipart = "^0.0.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
